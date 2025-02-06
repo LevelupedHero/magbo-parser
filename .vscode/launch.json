@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Запуск TS через tsx",
+        "runtimeExecutable": "yarn",
+        "args": ["tsx", "main.ts"],
+        "cwd": "${workspaceFolder}",
+        "sourceMaps": true
+      }
+    ]
+  }
+  
